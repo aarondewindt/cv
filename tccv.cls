@@ -30,7 +30,7 @@
 \LoadClass[10pt]{scrartcl}
 
 \setcounter{secnumdepth}{-1}
-\RequirePackage[hmargin=1.25cm,vmargin=1.6cm,twocolumn,columnsep=1.25cm]{geometry}
+\RequirePackage[hmargin=1.25cm,vmargin=1.6cm,twocolumn,columnsep=1.0cm]{geometry}
 \RequirePackage{bookman,etoolbox,hyperref,marvosym,needspace,tabularx,xcolor}
 \usepackage{enumitem}% http://ctan.org/pkg/enumitem
 \usepackage{fontawesome}
@@ -116,7 +116,7 @@
     \faEnvelopeO    & \href{mailto:#4}{#4}
     \ifstrempty{#1}{}{\smallskip\\ \faLink & \href{http://#1}{#1}}
     \ifstrempty{#5}{}{\smallskip\\ \faLinkedin & \href{http://#5}{#5}}
-    \ifstrempty{#6}{}{\smallskip\\ \faGithub & \href{http://#6}{#6}}
+    % \ifstrempty{#6}{}{\smallskip\\ \faGithub & \href{http://#6}{#6}}
     \end{tabularx}}}
 
 % Every \item can be followed by one or more paragraphs
