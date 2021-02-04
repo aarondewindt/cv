@@ -116,7 +116,7 @@
     \faEnvelopeO    & \href{mailto:#4}{#4}
     \ifstrempty{#1}{}{\smallskip\\ \faLink & \href{http://#1}{#1}}
     \ifstrempty{#5}{}{\smallskip\\ \faLinkedin & \href{http://#5}{#5}}
-    % \ifstrempty{#6}{}{\smallskip\\ \faGithub & \href{http://#6}{#6}}
+    \ifstrempty{#6}{}{\smallskip\\ \faGithub & \href{http://#6}{#6}}
     \end{tabularx}}}
 
 % Every \item can be followed by one or more paragraphs
